@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suhaib - Personal Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favico.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#">SUHAIB</a>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section">
+      <div class="hero">
+        <h1>Hello, I'm SUHAIB</h1>
+        <p>I'm a webdeveloper</p>
+        <a href="#about" class="btn">Learn More</a>
+      </div>
+    </section>
+    <section id="about" class="section">
+      <div class="hero">
+        <h2>About Me</h2>        
+        <p style="color: rgb(106, 59, 2);"><b>Muhammed Suhaib - Web Developer</b></p>
+        <p>Hello there! I'm Muhammed Suhaib, a passionate web developer hailing from Malappuram, Kerala. My journey into the world of web development began after completing my plus two education at GHSS Kadanchery School, where I focused on humanities.
+
+          Driven by my fascination for technology, I delved into learning the fundamentals of web development, mastering HTML, CSS, JavaScript, and a host of other essential tools and languages. With a strong foundation in place, I sought to deepen my knowledge and practical skills through hands-on experience.
+          
+          This led me to undertake a one-year internship program at <a href="https://bridgeon.in/" target="_blank">Bridgeon Solutions</a>, where I had the opportunity to apply and expand upon my learning in a real-world setting. During this immersive experience, I further honed my skills in web development, gaining invaluable insights and practical expertise.
+          
+          My journey has instilled in me a deep passion for creating innovative and user-friendly web experiences. I am committed to staying updated with the latest technologies in the field, always eager to embrace new challenges and opportunities for growth.</p>     
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="hero">
+      <h2>Contact</h2>
+      <p>I'm Suhaib, an expert web developer. If you're looking to build an outstanding website or have any questions, I'm here to help. Contact me at muhammedsuhaibpottayil@gmail.com or call +<a href="https://wa.me/7306890297" target="_blank">7306890297</a> to start your journey towards digital excellence!:</p>
+      <ul>
+        <li>Email: <a href="https://muhaammedsuhaib.github.io/Front-end-Developer-portfolio/" target="_blank">muhammedsuhaibpottayil@gmail.com</a> </li>
+        <li>GitHub: <a href="https://github.com/muhaammedsuhaib">@GitHub</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/muhammedsuhaib/">@LinkedIn</a></li>
+        <li>Instagram: <a href="https://www.instagram.com/suhaii.bb?igsh=ODhhanN0NjYxNmJs ">@Instagram</a></li>
+        <li>Twitter: <a href="https://x.com/MuhaammedSuhaib">@Twitter</a></li>
+        <li>WhatsApp: <a href="https://wa.me/7306890297">@WhatsApp</a></li>
+      </ul>
+    </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 SUHAIB.</p>
+  </footer>
+
+  <script>
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navMenu = document.querySelector('.nav-menu');
+    
+    menuToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
